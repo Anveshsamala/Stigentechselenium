@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="619" started-at="2021-06-03T11:23:55 IST" finished-at="2021-06-03T11:23:56 IST">
+    <groups>
+      <group name="regresiontesting">
+        <method signature="TestNg1.testcase2()[pri:2, instance:com.TestNGdifferentMethods.TestNg1@df27fae]" name="testcase2" class="com.TestNGdifferentMethods.TestNg1"/>
+        <method signature="TestNg1.testcase4()[pri:1, instance:com.TestNGdifferentMethods.TestNg1@df27fae]" name="testcase4" class="com.TestNGdifferentMethods.TestNg1"/>
+        <method signature="TestNG2.testscenario1()[pri:0, instance:com.TestNGdifferentMethods.TestNG2@134593bf]" name="testscenario1" class="com.TestNGdifferentMethods.TestNG2"/>
+        <method signature="TestNG2.testscenario4()[pri:0, instance:com.TestNGdifferentMethods.TestNG2@134593bf]" name="testscenario4" class="com.TestNGdifferentMethods.TestNG2"/>
+      </group> <!-- regresiontesting -->
+    </groups>
+    <test name="TestNg1" duration-ms="159" started-at="2021-06-03T11:23:55 IST" finished-at="2021-06-03T11:23:56 IST">
+      <class name="com.TestNGdifferentMethods.TestNg1">
+        <test-method status="PASS" signature="testcase4()[pri:1, instance:com.TestNGdifferentMethods.TestNg1@df27fae]" name="testcase4" duration-ms="31" started-at="2021-06-03T11:23:56 IST" finished-at="2021-06-03T11:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method status="PASS" signature="testcase2()[pri:2, instance:com.TestNGdifferentMethods.TestNg1@df27fae]" name="testcase2" duration-ms="5" started-at="2021-06-03T11:23:56 IST" finished-at="2021-06-03T11:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- com.TestNGdifferentMethods.TestNg1 -->
+    </test> <!-- TestNg1 -->
+    <test name="TestNG2" duration-ms="44" started-at="2021-06-03T11:23:56 IST" finished-at="2021-06-03T11:23:56 IST">
+      <class name="com.TestNGdifferentMethods.TestNG2">
+        <test-method status="PASS" signature="testscenario1()[pri:0, instance:com.TestNGdifferentMethods.TestNG2@134593bf]" name="testscenario1" duration-ms="6" started-at="2021-06-03T11:23:56 IST" finished-at="2021-06-03T11:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testscenario1 -->
+        <test-method status="PASS" signature="testscenario4()[pri:0, instance:com.TestNGdifferentMethods.TestNG2@134593bf]" name="testscenario4" duration-ms="21" started-at="2021-06-03T11:23:56 IST" finished-at="2021-06-03T11:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testscenario4 -->
+      </class> <!-- com.TestNGdifferentMethods.TestNG2 -->
+    </test> <!-- TestNG2 -->
+  </suite> <!-- Suite -->
+</testng-results>
